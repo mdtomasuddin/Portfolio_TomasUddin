@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Tomas Uddin | Junior Laravel Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">Tomas<span class="text-gradient"> Uddin</span></span>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#" class="nav-link btn-cv-nav"><i class="fas fa-download"></i> CV</a></li>
+                <li><a href="#contact" class="nav-link btn-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content fade-in">
+                <div class="badge">Available for Work</div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="text-gradient">Md Tomas Uddin</span>
+                </h1>
+                <h2 class="hero-subtitle">Jr. Laravel Developer</h2>
+                <p class="hero-desc">
+                    Motivated Jr. Laravel Developer with 1 year of professional experience, specializing in RESTful
+                    API development, database design, and scalable PHP/Laravel architectures.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="https://github.com/mdtomasuddin" target="_blank" class="btn btn-secondary"><i
+                            class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="btn btn-cv"><i class="fas fa-download"></i>
+                        Download CV</a>
+                </div>
+                <div class="hero-info">
+                    <div class="info-item"><i class="fas fa-map-marker-alt text-gradient"></i> Dhaka, Bangladesh</div>
+                    <div class="info-item"><a href="mailto:mdtomasuddin1@gmail.com"
+                            style="color: inherit; text-decoration: none;"><i class="fas fa-envelope text-gradient"></i>
+                            mdtomasuddin1@gmail.com</a></div>
+                    <div class="info-item"><a href="tel:+8801873050391"
+                            style="color: inherit; text-decoration: none;"><i class="fas fa-phone text-gradient"></i>
+                            +880 1873-050391</a></div>
+                </div>
+            </div>
+            <div class="hero-visual fade-in-right">
+                <div class="image-wrapper">
+                    <!-- Placeholder for profile image, using the one from images folder if available or a generated style -->
+                    <img src="images/profile.png" alt="Md Tomas Uddin" class="profile-img">
+                    <div class="floating-badge badge-1"><i class="fab fa-laravel"></i></div>
+                    <div class="floating-badge badge-2"><i class="fab fa-react"></i></div>
+                    <div class="floating-badge badge-3"><i class="fas fa-database"></i></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Professional Summary</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content glass-card fade-in-up">
+                <p>
+                    Experienced in delivering secure, high-performance web applications that solve complex backend
+                    challenges. Committed to clean code, system reliability, and driving project success through
+                    technical excellence and team collaboration.
+                </p>
+                <p>
+                    Specializing in Laravel framework, RESTful API development, and MySQL database optimization. I have
+                    a strong foundation in both frontend and backend technologies, allowing me to build comprehensive,
+                    full-stack solutions.
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3 class="text-gradient">2+</h3>
+                        <p>Major Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="text-gradient">1</h3>
+                        <p>Year Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="text-gradient">100%</h3>
+                        <p>Commitment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Card 1 -->
+                <div class="skill-card glass-card fade-in-up">
+                    <div class="skill-icon"><i class="fab fa-laravel text-gradient"></i></div>
+                    <h3>Backend Development</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> Laravel Framework</li>
+                        <li><i class="fas fa-check"></i> RESTful API Design</li>
+                        <li><i class="fas fa-check"></i> PHP & Core Logic</li>
+                        <li><i class="fas fa-check"></i> Authentication (Role-based)</li>
+                    </ul>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="skill-card glass-card fade-in-up" style="animation-delay: 0.1s;">
+                    <div class="skill-icon"><i class="fas fa-database text-gradient"></i></div>
+                    <h3>Database Design</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> MySQL & Query Optimization</li>
+                        <li><i class="fas fa-check"></i> Schema Architecture</li>
+                        <li><i class="fas fa-check"></i> Data Integrity & Security</li>
+                        <li><i class="fas fa-check"></i> Performance Tuning</li>
+                    </ul>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="skill-card glass-card fade-in-up" style="animation-delay: 0.2s;">
+                    <div class="skill-icon"><i class="fab fa-react text-gradient"></i></div>
+                    <h3>Frontend Integration</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> React.js Components</li>
+                        <li><i class="fas fa-check"></i> Blade Templating</li>
+                        <li><i class="fas fa-check"></i> JavaScript (ES6+)</li>
+                        <li><i class="fas fa-check"></i> API Integration</li>
+                    </ul>
+                </div>
+                <!-- Skill Card 4 -->
+                <div class="skill-card glass-card fade-in-up" style="animation-delay: 0.3s;">
+                    <div class="skill-icon"><i class="fas fa-tools text-gradient"></i></div>
+                    <h3>Dev Tools & Best Practices</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> Git & Version Control</li>
+                        <li><i class="fas fa-check"></i> Clean Code Principles</li>
+                        <li><i class="fas fa-check"></i> Team Collaboration</li>
+                        <li><i class="fas fa-check"></i> Scalable Architecture</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="soft-skills glass-card mt-4 fade-in-up">
+                <h3 class="mb-2">Soft Skills</h3>
+                <div class="tags">
+                    <span class="tag">Team Collaboration</span>
+                    <span class="tag">Client Relationship Management</span>
+                    <span class="tag">User Experience Design</span>
+                    <span class="tag">Microsoft Office & Google Sheets</span>
+                    <span class="tag">Time Management</span>
+                    <span class="tag">Problem Solving</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Experience & Education</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-column fade-in-right">
+                    <h3 class="timeline-title"><i class="fas fa-briefcase text-gradient"></i> Work Experience</h3>
+
+                    <div class="timeline-item glass-card" style="margin-bottom: 2rem;">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date" style="color: #60a5fa;">15 Apr, 2025 – Present</div>
+                        <h4 class="timeline-role">Jr. Laravel Developer</h4>
+                        <div class="timeline-company" style="margin-bottom: 0.5rem;">Softvence Agency — Dhaka,
+                            Bangladesh</div>
+                        <p class="timeline-details">
+                            Developed and maintained RESTful APIs using Laravel Framework for web and mobile client
+                            applications.
+                            Designed and optimized MySQL database schemas, improving query performance.
+                            Built and deployed admin dashboards with Blade templates and React.js components.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-column fade-in-left">
+                    <h3 class="timeline-title"><i class="fas fa-graduation-cap text-gradient"></i> Education</h3>
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date text-gradient">2026 (Running)</div>
+                        <h4 class="timeline-role">B.Sc. in Computer Science and Engineering</h4>
+                        <div class="timeline-company">Uttara University, Dhaka</div>
+                    </div>
+
+                    <div class="timeline-item glass-card mt-4">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date text-gradient">Diploma in CST</div>
+                        <h4 class="timeline-role">Computer Science and Technology</h4>
+                        <div class="timeline-company">Kishoreganj Polytechnic Institute</div>
+                        <p class="timeline-details">CGPA: 3.88 / 4.00</p>
+                    </div>
+
+                    <div class="timeline-item glass-card mt-4">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date text-gradient">2020 – 2021</div>
+                        <h4 class="timeline-role">Secondary School Certificate (SSC)</h4>
+                        <div class="timeline-company">Ghoragaca Multilateral High School</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">My Projects</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">A showcase of production-ready web applications and secure RESTful APIs
+                    built with Laravel and React.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card fade-in-up">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Student Stay RESTful API">
+                        <div class="project-overlay">
+                            <a href="https://student-stay.achgoldestates.com" target="_blank"
+                                class="btn btn-primary btn-sm"><i class="fas fa-external-link-alt"></i> Visit Site</a>
+                            <a href="https://github.com/mdtomasuddin/Student-stay_-RESTful_API" target="_blank"
+                                class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Student Stay RESTful API</h3>
+                        <p>Full-stack student rental platform connecting students with landlords through a secure REST
+                            API backend.</p>
+                        <div class="tags">
+                            <span class="tag-sm">Laravel</span>
+                            <span class="tag-sm">React.js</span>
+                            <span class="tag-sm">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card fade-in-up">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Property Management API">
+                        <div class="project-overlay">
+                            <a href="https://saam.thesyndicates.team" target="_blank" class="btn btn-primary btn-sm"><i
+                                    class="fas fa-external-link-alt"></i> Visit Site</a>
+                            <a href="https://github.com/mdtomasuddin/property_management_restfulApi" target="_blank"
+                                class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Property Porichalok</h3>
+                        <p>RESTful API and admin dashboard for full property listing, booking, and management.</p>
+                        <div class="tags">
+                            <span class="tag-sm">Laravel</span>
+                            <span class="tag-sm">MySQL</span>
+                            <span class="tag-sm">REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Have a project in mind? Let's work together to bring your ideas to life.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info glass-card fade-in-right">
+                    <h3>Contact Information</h3>
+                    <p class="mb-4">Feel free to reach out to me for any inquiries, project discussions, or
+                        collaborations.</p>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:mdtomasuddin1@gmail.com"
+                                    style="color: inherit; text-decoration: none;">mdtomasuddin1@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+880 1873-050391</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links mt-4">
+                        <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/8801873050391" target="_blank" class="social-icon"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="#" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/mdtomasuddin" target="_blank" class="social-icon"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form glass-card fade-in-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Project Discussion"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" rows="5"
+                                placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Md Tomas Uddin<span class="text-gradient">.</span></h2>
+                    <p> Junior Laravel Developer</p>
+                </div>
+                <div class="footer-copyright">
+                    &copy;
+                    <script>document.write(new Date().getFullYear())</script> Md Tomas Uddin. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
